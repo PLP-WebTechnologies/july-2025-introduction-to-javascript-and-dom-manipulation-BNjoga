@@ -1,0 +1,103 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #f4f4f4 0%, #e0e7ff 100%);
+    min-height: 100vh;
+    color: #22223b;
+}
+
+header {
+    background: linear-gradient(90deg, #35424a 60%, #4f5d75 100%);
+    color: #fff;
+    padding: 30px 0 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(53, 66, 74, 0.15);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto 0 auto;
+    overflow: hidden;
+}
+
+.content {
+    background: #fff;
+    padding: 32px 28px;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(79, 93, 117, 0.12);
+    margin-bottom: 40px;
+    transition: box-shadow 0.3s;
+}
+
+.content:hover {
+    box-shadow: 0 8px 32px rgba(79, 93, 117, 0.18);
+}
+
+h2 {
+    color: #35424a;
+    margin-bottom: 12px;
+    font-size: 1.6rem;
+}
+
+p {
+    margin-bottom: 18px;
+    color: #555;
+    font-size: 1.1rem;
+}
+
+button {
+    background: linear-gradient(90deg, #35424a 60%, #e8491d 100%);
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(53, 66, 74, 0.08);
+    transition: background 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #e8491d 60%, #35424a 100%);
+    transform: translateY(-2px) scale(1.04);
+}
+
+#message, #loopOutput {
+    margin-top: 24px;
+    padding: 16px;
+    background: #e0e7ff;
+    border-radius: 8px;
+    color: #22223b;
+    font-size: 1.08rem;
+    min-height: 32px;
+    box-shadow: 0 1px 4px rgba(79, 93, 117, 0.07);
+}
+
+.footer {
+    text-align: center;
+    padding: 18px 0;
+    background: linear-gradient(90deg, #35424a 60%, #4f5d75 100%);
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    box-shadow: 0 -2px 8px rgba(53, 66, 74, 0.10);
+}
